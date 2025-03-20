@@ -42,7 +42,7 @@ $('path').hover(function(e){
 
 
 
-var idAarr = ["RU-MOW", "RU-SPE", "RU-NEN", "RU-YAR", "RU-CHE", "RU-ULY", "RU-TYU", "RU-TUL", "RU-SVE", "RU-RYA", "RU-ORL", "RU-OMS", "RU-NGR", "RU-LIP", "RU-KRS", "RU-KGN", "RU-KGD", "RU-IVA", "RU-BRY", "RU-AST", "RU-KHA", "RU-CE", "RU-UD", "RU-SE", "RU-MO", "RU-KR", "RU-KL", "RU-IN", "RU-AL", "RU-BA", "RU-AD", "RU-CR", "RU-SEV", "RU-KO", "RU-KIR", "RU-PNZ", "RU-TAM", "RU-MUR", "RU-LEN", "RU-VLG", "RU-KOS", "RU-PSK", "RU-ARK", "RU-YAN", "RU-CHU", "RU-YEV", "RU-TY", "RU-SAK", "RU-AMU", "RU-BU", "RU-KK", "RU-KEM", "RU-NVS", "RU-ALT", "RU-DA", "RU-STA", "RU-KB", "RU-KC", "RU-KDA", "RU-ROS", "RU-SAM", "RU-TA", "RU-ME", "RU-CU", "RU-NIZ", "RU-VLA", "RU-MOS", "RU-KLU", "RU-BEL", "RU-ZAB", "RU-PRI", "RU-KAM", "RU-MAG", "RU-SA", "RU-KYA", "RU-ORE", "RU-SAR", "RU-VGG", "RU-VOR", "RU-SMO", "RU-TVE", "RU-PER", "RU-KHM", "RU-TOM", "RU-IRK"];
+var idAarr = ["RU-MOW", "RU-SPE", "RU-NEN", "RU-YAR", "RU-CHE", "RU-ULY", "RU-TYU", "RU-TUL", "RU-SVE", "RU-RYA", "RU-ORL", "RU-OMS", "RU-NGR", "RU-LIP", "RU-KRS", "RU-KGN", "RU-KGD", "RU-IVA", "RU-BRY", "RU-AST", "RU-KHA", "RU-CE", "RU-UD", "RU-SE", "RU-MO", "RU-KR", "RU-KL", "RU-IN", "RU-AL", "RU-BA", "RU-AD", "RU-CR", "RU-SEV", "RU-KO", "RU-KIR", "RU-PNZ", "RU-TAM", "RU-MUR", "RU-LEN", "RU-VLG", "RU-KOS", "RU-PSK", "RU-ARK", "RU-YAN", "RU-CHU", "RU-YEV", "RU-TY", "RU-SAK", "RU-AMU", "RU-BU", "RU-KK", "RU-KEM", "RU-NVS", "RU-ALT", "RU-DA", "RU-STA", "RU-KB", "RU-KC", "RU-KDA", "RU-ROS", "RU-SAM", "RU-TA", "RU-ME", "RU-CU", "RU-NIZ", "RU-VLA", "RU-MOS", "RU-KLU", "RU-BEL", "RU-ZAB", "RU-PRI", "RU-KAM", "RU-MAG", "RU-SA", "RU-KYA", "RU-ORE", "RU-SAR", "RU-VGG", "RU-VOR", "RU-SMO", "RU-TVE", "RU-PER", "RU-KHM", "RU-TOM", "RU-IRK", "RU-KHE", "RU-ZAP", "RU-DNR", "RU-LNR"];
 var idAarr2 = new Array(
   ["RU-MOW",  "Москва", "moscow.gif"],
   ["RU-CHE", "Челябинская область", "chelyabinskaya_flag.png" ],
@@ -98,7 +98,7 @@ var idAarr2 = new Array(
   ["RU-ALT",  "Алтайский край", ""],
   ["RU-DA",  "Республика Дагестан", ""],
   ["RU-KB",  "Кабардино-Балкарская республика", ""],
-  ["RU-KC",  "Карачаевая-Черкесская республика", ""],
+  ["RU-KC",  "Карачаево-Черкесская республика", ""],
   ["RU-KDA",  "Краснодарский край", ""],
   ["RU-ROS",  "Ростовская область", ""],
   ["RU-SAM",  "Самарская область", ""],
@@ -119,17 +119,21 @@ var idAarr2 = new Array(
   ["RU-ORE",  "Оренбургская область", ""],
   ["RU-SAR",  "Саратовская область", ""],
   ["RU-VGG",  "Волгоградская область", ""],
-  ["RU-VOR",  "Ставропольский край", ""],
+  ["RU-VOR",  "Воронежская область", ""],
   ["RU-SMO",  "Смоленская область", ""],
   ["RU-TVE",  "Тверская область", ""],
-  ["RU-PER",  "Пермская область", ""],
+  ["RU-PER",  "Пермский край", ""],
   ["RU-KHM",  "Ханты-Мансийский АО", ""],
   ["RU-KHM",  "Ханты-Мансийский АО", ""],
   ["RU-TOM",  "Томская область", ""],
   ["RU-IRK",  "Иркутская область", ""],
   ["RU-NEN",  "Ненецскй АО", ""],
   ["RU-STA",  "Ставропольский край", ""],
-  ["RU-TUL",  "Тульская область", "tulskaya_flag.png"]
+  ["RU-TUL",  "Тульская область", "tulskaya_flag.png"],
+  ["RU-KHE",  "Херсонская область", ""],
+  ["RU-ZAP",  "Запорожская область", ""],
+  ["RU-DNR",  "ДНР", ""],
+  ["RU-LNR",  "ЛНР", ""],
 
   );
 
